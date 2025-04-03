@@ -39,21 +39,6 @@ npm install
 npm run dev
 ```
 
-### 3. Cấu hình Database
-Hệ thống sử dụng **Azure SQL Database**. Cập nhật thông tin kết nối trong file **settings.py** của Django:
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sql_server',
-        'NAME': 'hotel_booking_system',
-        'USER': 'your_user',
-        'PASSWORD': 'your_password',
-        'HOST': 'your_azure_host.database.windows.net',
-        'PORT': '1433',
-    }
-}
-```
-
 ## API Endpoints chính
 - **Đặt phòng:** `POST /api/bookings/`
 - **Danh sách phòng:** `GET /api/rooms/`
