@@ -8,7 +8,7 @@
 - **Frontend:** React, TypeScript
 - **Cơ sở dữ liệu:** Azure SQL Database
 - **Authentication:** JWT (JSON Web Token)
-- **Cloud Services:** Azure
+- **Cloud Services:** Neon database
 
 ## Cấu trúc thư mục
 ```
