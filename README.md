@@ -6,7 +6,7 @@
 ## Công nghệ sử dụng
 - **Backend:** Django, Django REST Framework
 - **Frontend:** React, TypeScript
-- **Cơ sở dữ liệu:** Azure SQL Database
+- **Cơ sở dữ liệu:** Postgre SQL Database
 - **Authentication:** JWT (JSON Web Token)
 - **Cloud Services:** Neon database
 
